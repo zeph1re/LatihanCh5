@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp"
+    android:id="@+id/cardCountry"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/country_flag"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_launcher_background"
+            android:contentDescription="@string/country_flag" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/country_name_tv"
+            android:layout_toEndOf="@+id/country_flag"
+            android:text="@string/indonesia"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/country_capital_tv"
+            android:layout_toEndOf="@+id/country_flag"
+            android:layout_below="@id/country_name_tv"
+            android:text="@string/capital_jakarta"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/country_region_tv"
+            android:layout_toEndOf="@+id/country_flag"
+            android:layout_below="@id/country_capital_tv"
+            android:text="@string/region_asia"
+            android:layout_marginTop="5dp"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

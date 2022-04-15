@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LatihanCh5</string>
+    <string name="country_flag">country flag</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="capital_jakarta">Capital : Jakarta</string>
+    <string name="region_asia">Region : Asia</string>
+</resources>
